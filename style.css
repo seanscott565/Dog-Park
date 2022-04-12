@@ -1,5 +1,7 @@
 
+/* Element Styles */
 body {
+    user-select: none;
     background-color: #51b6f5;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,13 +11,28 @@ body {
     flex-direction: column;
 }
 
-.text {
-    font-size: 25px;
-    text-shadow: -1px 4px 4px rgba(0,0,0,0.6);
+input {
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 50px 0 15px 0; /* top | right | bottom | left */
+    border: none;
+    background-color: #51b6f5;   
 }
 
-.lower-right {
-    font-size: 10px;
+p {
+    text-align: center;
+}
+
+/* Class Styles */
+
+.outline {
+    outline: white 2px solid;
+}
+
+.big-boy-parent {
+    margin-top: 10%;
 }
 
 .parent {
@@ -25,28 +42,18 @@ body {
     align-items: center;
 }
 
+.text {
+    font-size: 25px;
+    text-shadow: -1px 4px 4px rgba(0,0,0,0.6); /* Almost a black color but not quite*/
+}
+
+.credit {
+    font-size: 10px;
+}
+
 .output {
     text-align: center;
     margin: 0 10px 60px 10px; /* top | right | bottom | left */
     width: 475px;
     height: 30px;
-}
-
-.outline {
-    outline: white 2px solid;
-}
-
-.y-bottom {
-    align-self: flex-end;
-}
-
-
-input {
-    color: white;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    margin: 50px 0 15px 0; /* top | right | bottom | left */
-    border: none;
-    background-color: #51b6f5;   
 }
